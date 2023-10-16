@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+
+        <Button Name = "TopLeft" Width="50" Height="30" Click="changeColor" MouseRightButtonDown="DeleteButton">
+        <Button.HorizontalAlignment>Left</Button.HorizontalAlignment>
+        <Button.VerticalAlignment>Top</Button.VerticalAlignment>
+            <Button.Content>1</Button.Content>
+        
+    </Button>
+
+        <Button Name = "TopMid" Width="50" Height="30" Click="changeColor" MouseRightButtonDown="DeleteButton">
+        <Button.HorizontalAlignment>Center</Button.HorizontalAlignment>
+        <Button.VerticalAlignment>Top</Button.VerticalAlignment>
+            <Button.Content>2</Button.Content>
+    </Button>
+
+        <Button Name = "TopRight" Width="50" Height="30" Click="changeColor" MouseRightButtonDown="DeleteButton">
+        <Button.HorizontalAlignment>Right</Button.HorizontalAlignment>
+        <Button.VerticalAlignment>Top</Button.VerticalAlignment>
+            <Button.Content>3</Button.Content>
+    </Button>
+
+        <Button Name = "BottomLeft" Width="50" Height="30" Click="changeColor" MouseRightButtonDown="DeleteButton">
+        <Button.HorizontalAlignment>Left</Button.HorizontalAlignment>
+        <Button.VerticalAlignment>Bottom</Button.VerticalAlignment>
+            <Button.Content>4</Button.Content>
+    </Button>
+
+        <Button Name = "BottomMid" Width="71" Height="30" Click="changeColor" MouseRightButtonDown="DeleteButton">
+            <Button.HorizontalAlignment>Center</Button.HorizontalAlignment>
+            <Button.VerticalAlignment>Bottom</Button.VerticalAlignment> 5
+        </Button>
+
+        <Button Name = "BottomRight" Width="89" Height="30" Click="changeColor" MouseRightButtonDown="DeleteButton">
+        <Button.HorizontalAlignment>Right</Button.HorizontalAlignment>
+        <Button.VerticalAlignment>Bottom</Button.VerticalAlignment>
+            <Button.Content>6</Button.Content>
+    </Button>
+ 
+        
+    </Grid>
+</Window>
